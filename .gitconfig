@@ -17,3 +17,6 @@
     untracked = green
 [credential]
 	helper = osxkeychain
+[user]
+	name = Steven Lee
+	email = info@steven-lee.com
