@@ -1,4 +1,3 @@
-
 # Get current dir (so run this script from anywhere)
 export DOTFILES_DIR
 DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -26,7 +25,7 @@ brew tap caskroom/cask
 #brew cask installs
 brew cask install alfred android-file-transfer appcleaner dropbox flux font-source-code-pro gas-mask google-chrome google-chrome-canary google-drive iterm2 postman slack spotify the-unarchiver transmission virtualbox visual-studio-code vlc
 
-#brew install quicklook plugins https://github.com/sindresorhus/quick-look-plugins
+brew install quicklook plugins https://github.com/sindresorhus/quick-look-plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo
 
 #brew font install
@@ -104,15 +103,6 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 # Disable hibernation (speeds up entering sleep mode)
 sudo pmset -a hibernatemode 0
-
-# Remove the sleep image file to save disk space
-sudo rm /private/var/vm/sleepimage
-
-# Create a zero-byte file instead…
-sudo touch /private/var/vm/sleepimage
-
-# …and make sure it can’t be rewritten
-sudo chflags uchg /private/var/vm/sleepimage
 
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
@@ -432,9 +422,6 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
 # Prevent Time Machine from prompting to use new hard drives as backup volume
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
-
-# Disable local Time Machine backups
-hash tmutil &> /dev/null && sudo tmutil disablelocal
 
 ###############################################################################
 # Activity Monitor                                                            #
