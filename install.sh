@@ -45,6 +45,8 @@ touch ~/.hushlogin
 ln -sfv $DOTFILES_DIR/.gitconfig ~
 ln -sfv $DOTFILES_DIR/.gitignore_global ~
 
+git config --global core.excludesfile ~/.gitignore_global
+
 # symlink zsh config
 ln -sfv $DOTFILES_DIR/.zshrc ~
 
