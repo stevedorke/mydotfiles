@@ -36,6 +36,9 @@ brew cask install font-source-code-pro font-source-code-pro-for-powerline
 #install oh my zsh 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+#install powerlevel 9k theme
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+
 #remove terminal last login
 touch ~/.hushlogin
 
