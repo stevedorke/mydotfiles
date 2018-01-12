@@ -23,7 +23,7 @@ brew install ack ccat coreutils git node thefuck tldr trash tree wget yarn zsh z
 brew tap caskroom/cask
 
 #brew cask installs
-brew cask install adapter alfred android-file-transfer appcleaner dropbox flux gas-mask google-chrome google-chrome-canary google-drive iterm2 karabiner-elements postman slack spotify spotify-notifications the-unarchiver transmission virtualbox visual-studio-code vlc
+brew cask install adapter alfred android-file-transfer appcleaner caffeinego dropbox flux gas-mask google-chrome google-chrome-canary google-drive iterm2 karabiner-elements postman slack spotify spotify-notifications the-unarchiver transmission virtualbox visual-studio-code vlc
 
 # brew install quicklook plugins https://github.com/sindresorhus/quick-look-plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo
