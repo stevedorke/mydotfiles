@@ -59,7 +59,7 @@ HIST_STAMPS="mm/dd/yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx z npm)
+plugins=(git osx z npm zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -90,7 +90,7 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-alias zshconfig="open ~/.zshrc"
+alias zshrc="open ~/.zshrc"
 alias ohmyzsh="open ~/.oh-my-zsh"
 alias ls='ls -lah'
 alias mkdir='mkdir -pv'

@@ -50,6 +50,8 @@ git config --global core.excludesfile ~/.gitignore_global
 # symlink zsh config
 ln -sfv $DOTFILES_DIR/.zshrc ~
 
+# zsh auto complete
+git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
 #soure: https://github.com/mathiasbynens/dotfiles/blob/master/
 ###############################################################################
