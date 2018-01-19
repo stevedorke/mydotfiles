@@ -290,9 +290,9 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>261 208 796 473 0 0 1440 878 </string>
+	<string>261 222 796 473 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>155 94 650 597 0 0 1440 878 </string>
+	<string>155 94 810 597 0 0 1440 878 </string>
 	<key>NeverWarnAboutShortLivedSessions_BEE6C321-DEFF-4600-BBF6-3C6254CA7ABA</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_BEE6C321-DEFF-4600-BBF6-3C6254CA7ABA_selection</key>
@@ -869,7 +869,7 @@
 			<key>Normal Font</key>
 			<string>SauceCodePowerline-Regular 14</string>
 			<key>Option Key Sends</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Prompt Before Closing 2</key>
 			<false/>
 			<key>Right Option Key Sends</key>
@@ -942,6 +942,8 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>9BFF779D-C00E-4010-8FE1-55CDD1FD0638</string>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>537059712.65567899</real>
 	<key>OpenArrangementAtStartup</key>
@@ -996,7 +998,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-01-07T23:16:30Z</date>
+	<date>2018-01-18T19:46:42Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SmartPlacement</key>
