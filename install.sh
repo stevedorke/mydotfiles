@@ -19,14 +19,9 @@ brew tap homebrew/dupes
 #brew installs
 brew install ack ccat coreutils git node thefuck tldr trash tree wget yarn zsh zsh-completions
 
-#install brew cask
+#brew cask installs (includes https://github.com/sindresorhus/quick-look-plugins)
 brew tap caskroom/cask
-
-#brew cask installs
-brew cask install adapter alfred android-file-transfer appcleaner caffeinego dropbox flux gas-mask google-chrome google-chrome-canary google-drive iterm2 karabiner-elements postman slack spotify spotify-notifications the-unarchiver transmission virtualbox visual-studio-code vlc
-
-# brew install quicklook plugins https://github.com/sindresorhus/quick-look-plugins
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo
+brew cask install adapter alfred android-file-transfer appcleaner caffeine dropbox flux gas-mask google-chrome google-chrome-canary google-drive iterm2 karabiner-elements postman slack spotify spotify-notifications the-unarchiver transmission virtualbox visual-studio-code vlc qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo
 
 #brew font install
 brew tap caskroom/fonts
@@ -38,7 +33,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 #install powerlevel 9k theme
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
-#remove terminal last login
+#remove terminal 'last login' messages
 touch ~/.hushlogin
 
 # symlink git config

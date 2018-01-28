@@ -104,5 +104,11 @@ alias ln='ln -i'
 # https://github.com/sindresorhus/trash
 alias rm='trash -i'
 
+# https://github.com/jingweno/ccat
+alias cat='ccat'
+
+# https://github.com/tldr-pages/tldr
+alias man='tldr'
+
 # Extra colorization
 export CLICOLOR=1
