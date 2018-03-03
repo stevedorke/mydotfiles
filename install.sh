@@ -17,7 +17,7 @@ brew doctor
 brew tap homebrew/dupes
 
 #brew installs
-brew install ack ccat coreutils git node thefuck tldr trash tree wget yarn zsh zsh-completions
+brew install ack ccat coreutils git node nvm thefuck tldr trash tree wget yarn zsh zsh-completions
 
 #brew cask installs (includes https://github.com/sindresorhus/quick-look-plugins)
 brew tap caskroom/cask
