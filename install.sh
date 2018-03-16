@@ -17,7 +17,7 @@ brew doctor
 brew tap homebrew/dupes
 
 #brew installs
-brew install ack ccat coreutils git node nvm thefuck tldr trash tree wget yarn zsh zsh-completions
+brew install ack ccat coreutils git node thefuck tldr trash tree wget yarn zsh zsh-completions
 
 #brew cask installs (includes https://github.com/sindresorhus/quick-look-plugins)
 brew tap caskroom/cask
@@ -32,6 +32,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 #install powerlevel 9k theme
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+
+#install nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 
 #remove terminal 'last login' messages
 touch ~/.hushlogin
