@@ -27,6 +27,9 @@ brew cask install adapter alfred android-file-transfer appcleaner caffeine dropb
 brew tap caskroom/fonts
 brew cask install font-source-code-pro-for-powerline
 
+#eslint global
+npm install -g eslint
+
 #install oh my zsh 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
