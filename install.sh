@@ -41,8 +41,9 @@ ln -sfv $DOTFILES_DIR/.gitignore_global ~
 
 git config --global core.excludesfile ~/.gitignore_global
 
-# symlink zsh config
+# symlink zsh/p10k config
 ln -sfv $DOTFILES_DIR/.zshrc ~
+ln -sfv $DOTFILES_DIR/.p10k.zsh ~
 
 #soure: https://github.com/mathiasbynens/dotfiles/blob/master/
 ###############################################################################
