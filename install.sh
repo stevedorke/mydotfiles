@@ -17,24 +17,17 @@ brew doctor
 brew tap homebrew/dupes
 
 #brew installs
-brew install ack ccat coreutils docker docker-compose docker-machine git node thefuck tldr trash tree wget yarn zsh zsh-completions
+brew install ack ccat coreutils docker docker-compose docker-machine git node thefuck tldr trash tree wget yarn zsh zsh-autosuggestions zsh-completions zsh-syntax-highlighting
 
 #brew cask installs (includes https://github.com/sindresorhus/quick-look-plugins)
 brew tap caskroom/cask
-brew cask install adapter alfred android-file-transfer appcleaner caffeine dropbox flux gas-mask google-chrome google-chrome-canary insomnia iterm2 karabiner-elements keycastr postman psequel sequel-pro slack spectacle spotify spotify-notifications the-unarchiver transmission visual-studio-code vlc qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook quicklookase qlvideo
+brew cask install adapter alfred android-file-transfer appcleaner caffeine docker dropbox flux gas-mask google-chrome google-chrome-canary handbrake insomnia iterm2 lastpass slack spectacle spotify spotify-notifications sublime-merge the-unarchiver transmission visual-studio-code vlc
 
-#brew font install
-brew tap caskroom/fonts
-brew cask install font-source-code-pro-for-powerline
-
-#eslint global
-npm install -g eslint
-
-#install oh my zsh 
+#install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 #install powerlevel 9k theme
-git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
 
 #install nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
