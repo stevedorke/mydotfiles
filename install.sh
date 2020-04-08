@@ -17,11 +17,11 @@ brew doctor
 brew tap homebrew/dupes
 
 #brew installs
-brew install ack ccat coreutils docker docker-compose docker-machine git node thefuck tldr trash tree wget yarn zsh zsh-autosuggestions zsh-completions zsh-syntax-highlighting
+brew install ack ccat coreutils docker docker-compose docker-machine fzf git node nvm thefuck tldr trash tree wget yarn zsh
 
 #brew cask installs (includes https://github.com/sindresorhus/quick-look-plugins)
 brew tap caskroom/cask
-brew cask install adapter alfred android-file-transfer appcleaner caffeine docker dropbox flux gas-mask google-chrome google-chrome-canary handbrake insomnia iterm2 lastpass slack spectacle spotify spotify-notifications sublime-merge the-unarchiver transmission visual-studio-code vlc
+brew cask install adapter alfred android-file-transfer appcleaner caffeine docker dropbox flux gas-mask google-chrome google-chrome-canary handbrake insomnia iterm2 lastpass slack spectacle spotify spotify-notifications sublime-merge the-unarchiver transmission tunnelblick visual-studio-code vlc
 
 #install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -44,6 +44,10 @@ git config --global core.excludesfile ~/.gitignore_global
 # symlink zsh/p10k config
 ln -sfv $DOTFILES_DIR/.zshrc ~
 ln -sfv $DOTFILES_DIR/.p10k.zsh ~
+
+# zsh plugins
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
 
 #soure: https://github.com/mathiasbynens/dotfiles/blob/master/
 ###############################################################################
