@@ -17,7 +17,7 @@ brew doctor
 brew tap homebrew/dupes
 
 #brew installs
-brew install ack ccat coreutils docker docker-compose docker-machine fzf git node nvm thefuck tldr trash tree wget yarn zsh
+brew install ack ccat coreutils docker docker-compose docker-machine git node nvm thefuck tldr trash tree wget yarn zsh
 
 #brew cask installs (includes https://github.com/sindresorhus/quick-look-plugins)
 brew tap caskroom/cask
