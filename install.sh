@@ -21,7 +21,7 @@ brew install ack ccat coreutils docker docker-compose docker-machine git node nv
 
 #brew cask installs (includes https://github.com/sindresorhus/quick-look-plugins)
 brew tap caskroom/cask
-brew cask install adapter alfred android-file-transfer appcleaner caffeine docker dropbox flux gas-mask google-chrome google-chrome-canary handbrake insomnia iterm2 lastpass monitorcontrol slack spectacle spotify spotify-notifications sublime-merge the-unarchiver tomighty transmission tunnelblick visual-studio-code vlc
+brew cask install adapter adguard alfred android-file-transfer appcleaner caffeine docker dropbox flux freedom gas-mask google-chrome google-chrome-canary handbrake insomnia iterm2 lastpass monitorcontrol slack spectacle spotify spotify-notifications sublime-merge the-unarchiver tomighty transmission tunnelblick visual-studio-code vlc
 
 #install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
