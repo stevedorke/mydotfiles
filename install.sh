@@ -61,6 +61,7 @@ CASKS=(
 	iterm2
 	lastpass
 	monitorcontrol
+	signal
 	slack
 	spectacle
 	spotify
