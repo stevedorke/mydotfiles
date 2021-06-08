@@ -12,9 +12,8 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # install homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew doctor
-brew tap homebrew/dupes
 
 #brew installs
 PACKAGES=(
@@ -65,24 +64,22 @@ CASKS=(
 	slack
 	spectacle
 	spotify
-	spotify-notifications
 	sublime-merge
 	the-unarchiver
 	transmission
 	tunnelblick
 	visual-studio-code
-	virtual
-	box
+	virtualbox
 	vlc
 )
 
 echo "Installing cask apps..."
-brew install --cask ${CASKS[@]}
+brew install ${CASKS[@]}
 
 #brew fonts
 brew tap homebrew/cask-fonts
-# echo "Installing fonts..."
-#to-do: add source-code-pro-for-powerline
+brew install font-source-code-pro-for-powerline
+echo "Installing fonts..."
 
 echo "Cleaning up..."
 brew cleanup
