@@ -60,6 +60,7 @@ CASKS=(
 	iterm2
 	lastpass
 	monitorcontrol
+	rescuetime
 	signal
 	slack
 	spectacle
