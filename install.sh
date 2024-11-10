@@ -45,6 +45,7 @@ CASKS=(
 	adguard 
 	android-file-transfer
 	appcleaner
+	calibre
 	caffeine
 	discord
 	docker
@@ -60,12 +61,14 @@ CASKS=(
 	slack
 	spectacle
 	spotify
+	steam
 	the-unarchiver
 	transmission
 	tunnelblick
 	visual-studio-code
 	virtualbox
 	vlc
+	zoom
 )
 
 echo "Installing cask apps..."
