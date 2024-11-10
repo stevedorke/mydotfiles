@@ -42,30 +42,24 @@ brew install ${PACKAGES[@]}
 brew tap homebrew/cask
 CASKS=(
 	adapter
-	adguard
-	alfred
+	adguard 
 	android-file-transfer
 	appcleaner
 	caffeine
 	discord
 	docker
 	dropbox
-	flux
-	freedom
-	gas-mask
 	google-chrome
 	google-drive
 	handbrake
 	insomnia
 	iterm2
-	lastpass
 	monitorcontrol
-	rescuetime
+	raycast
 	signal
 	slack
 	spectacle
 	spotify
-	sublime-merge
 	the-unarchiver
 	transmission
 	tunnelblick
